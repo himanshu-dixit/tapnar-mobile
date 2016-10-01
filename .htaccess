@@ -1,0 +1,35 @@
+# Apache Rewrite Rules
+
+ <IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteBase /tapnar_mobile/
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+
+# check to see if the request is for a PHP file:
+RewriteCond %{REQUEST_URI}/%{REQUEST_FILENAME}\.php -f
+RewriteRule ^/?(.*)$ /$1.php [L]
+
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^([^/]+)/([^/]+)$ image.php?title=$1&u=$2 [L]
+
+ # Remove .php-extension from url
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME}\.php -f
+ RewriteRule ^([^\.]+)$ $1.php
+
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME}\.php -f
+ RewriteRule ^([^\.]+)$ $1.php
+
+
+
+# End of Apache Rewrite Rules
+ </IfModule>
