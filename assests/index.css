@@ -4,6 +4,9 @@ html,body{
   font-family: "Open Sans";
 
 }
+a{
+  text-decoration: none;
+}
 .container-fluid {
     padding-right: 7px;
     padding-left: 5px;
@@ -207,8 +210,32 @@ font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
     text-shadow: 1px 1px #000;
     right: 0px;
     color: white;
+    font-family: "arial";
+
 }
 
+.info_box{
+  color: white;
+  padding: 10px 5px 3px 13px;
+  height: 57px;
+}
+
+.single_image_title{
+
+font-weight: 600;
+}
+.single_image_desc{
+  font-size: 9.7px;
+}
+.single_author{
+  margin-left: 5px;
+}
+.single_comments{
+  margin-left: 10px;
+}
+.single_view{
+  margin-left: 10px;
+}
 
 /* Smaller */
 

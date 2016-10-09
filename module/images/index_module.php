@@ -39,16 +39,29 @@ $format = $row['format'];
 
         <?php } ?>
 
-  <img src="http://<?php echo 'tapnar.com';?>/zone/zupload/thumb/f625sw8enm.<?php if($row['format']=="mp4"||$row['format']=="png"){
+<!--  <img src="http://<?php echo 'tapnar.com';?>/zone/zupload/thumb/f625sw8enm.<?php if($row['format']=="mp4"||$row['format']=="png"){
     echo 'jpg';
-  } else { echo $row['format'];}?>" style="width:100%" />
+  } else { echo $row['format'];}?>" style="width:100%" /> -->
+
+
+  <img src="http://tapnar.com/zone/zupload/src/f8ma29n9wc.jpg" width="100%" />
 </div>
 
   <div class="single_image_text"<?php if($format=='mp4' || $format =='gif'){ ?> onmouseover="move(this)" onmouseout="change(this)" data-id="<?php echo $row['image_key'];?>" <?php } ?> style='background-image:url("");'>
 
 
-
+<div class="info_box">
+  <div class="left_info">
 <div class="single_image_title"><?php echo substr($row['title'],0,32);?></div>
+<div class="single_image_desc">
+  <span class="">himanshu</span>
+  <span class="single_comments">21 Comments</span>
+  <span class="single_view">19 views</span>
+</div>
+</div>
+<div class="right-info">
+</div>
+</div>
 </div>
 </div>
 </div>
