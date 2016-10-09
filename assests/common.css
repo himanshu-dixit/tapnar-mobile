@@ -1,7 +1,7 @@
 html,body{
   width:100%;
   background-color:#1b1b1b;
-  min-width: 1080px;
+max-width:300px;
 }
 .body{
   margin: 0px 0px;
@@ -20,7 +20,7 @@ margin : 0 auto;
 
 #topbar{
   width:100%;
-height: 56px;
+height: 46px;
   background-color: rgb(33, 33, 36);
 /*  box-shadow: 0.5px 0.866px 5px 0px rgba(0, 0, 0, 0.133); */
   color:#fff;
