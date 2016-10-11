@@ -236,7 +236,13 @@ font-weight: 600;
 .single_view{
   margin-left: 10px;
 }
-
+.left_info{
+  float:left;
+}
+.rig_info{
+  float:left;
+  margin-left: 10px;
+}
 /* Smaller */
 
 @media (max-width:375px)  {
