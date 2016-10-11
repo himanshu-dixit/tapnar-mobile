@@ -216,7 +216,7 @@ font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
 
 .info_box{
   color: white;
-  padding: 10px 5px 3px 13px;
+  padding: 5px 5px 3px 13px;
   height: 57px;
 }
 
@@ -238,10 +238,73 @@ font-weight: 600;
 }
 .left_info{
   float:left;
+  padding-top: 5px;
 }
-.rig_info{
-  float:left;
-  margin-left: 10px;
+.right_info{
+  float:right;
+  margin-left: 6px;
+      margin-right: 5px;
+}
+.votes{
+  float: left;
+      margin-right: 3px;
+      font-size: 17.5px;
+      font-weight: 600;
+      margin-top: 10px;
+}
+.upvote{
+  float: left;
+  margin-left: 9px;
+  background-image: url(sprite.png);
+  background-size: 360px 360px;
+  width: 34px;
+  height: 43px;
+  background-position: -86px 0px;
+}
+.downvote{
+  float: left;
+  margin-left: 4px;
+    background-image: url(sprite.png);
+    background-size: 360px 360px;
+    width: 34px;
+    height: 43px;
+    background-position: -120px 0px;
+}
+.favorite{
+  float: left;
+    margin-left: 5px;
+  background-image: url(sprite.png);
+  background-size: 360px 360px;
+  width: 34px;
+  height: 43px;
+  background-position: -213px 0px;
+}
+.upvote_click{
+  float: left;
+  margin-left: 9px;
+  background-image: url(sprite.png);
+  background-size: 360px 360px;
+  width: 34px;
+  height: 43px;
+  background-position: -7px 0px;
+}
+.downvote_click{
+  float: left;
+  margin-left: 4px;
+    background-image: url(sprite.png);
+    background-size: 360px 360px;
+    width: 34px;
+    height: 43px;
+    background-position: -41px 0px;
+}
+.favorite_click{
+  float: left;
+  margin-left: 5px;
+  background-image: url(sprite.png);
+  background-size: 360px 360px;
+  width: 34px;
+  height: 43px;
+  background-position: -168px 0px;
 }
 /* Smaller */
 
@@ -255,7 +318,7 @@ font-weight: 600;
 
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (max-width:320px)  {
-  padding-left: 50%;
+
  }
 
  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -272,3 +335,13 @@ font-weight: 600;
 
 
   }
+
+
+  /* Custom For Refixing */
+
+  @media (max-width:375px)  {
+    .favorite{
+display: none;
+      /*margin-left: -2%;*/
+    }
+   }

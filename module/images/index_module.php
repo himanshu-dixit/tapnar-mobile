@@ -59,7 +59,21 @@ $format = $row['format'];
   <span class="single_view">19 views</span>
 </div>
 </div>
-<div class="right-info">
+<div class="right_info">
+<div class="votes">
+12
+</div>
+<div class="upvote">
+
+</div>
+<div class="downvote">
+
+</div>
+<div class="favorite">
+
+</div>
+
+
 </div>
 </div>
 </div>
