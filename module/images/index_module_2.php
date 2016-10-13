@@ -51,7 +51,7 @@ $format = $row['format'];
 
 <div class="info_box left_info_box">
   <div class="left_info">
-<div class="single_image_titleF"><?php echo substr($row['title'],0,32);?></div>
+<div class="single_image_titleF"><?php echo substr($row['title'],0,18);?></div>
 <div class="single_image_desc">
 <div class="info_left_small view_left_info">
 

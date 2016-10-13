@@ -364,6 +364,17 @@ width: 100%;
   }
  }
 
+ @media (max-width:365px)  {
+   .topbar_logo{
+
+     width:64%;
+     /*margin-left: -2%;*/
+   }
+   .small_text_info{
+     display: none;
+   }
+  }
+
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (max-width:320px)  {
 
