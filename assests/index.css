@@ -353,6 +353,7 @@ width: 100%;
 }
 .border_image_box{
   border-top: .2px solid #3c3d40;
+  margin-top:1px;
 }
 /* Smaller */
 
