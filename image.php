@@ -91,8 +91,12 @@ $title1 =   str_replace("?","",$title);
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
-  <link rel="stylesheet" href="http://tapnar.com/assests/image_page.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="http://localhost/tapnar_mobile/assests/image_page.css" />
+  <!--<link rel="stylesheet" href="http://tapnar.com/assests/image_page.css" />-->
 
 </head>
 <body>
@@ -105,12 +109,15 @@ $title1 =   str_replace("?","",$title);
 <div class="content">
   <div class="container1 image_container">
 <div class="scroll" style="display:inline-block;">
-<?php include 'module/images/index_module_2.php';?>
+<?php // include 'module/images/index_module_2.php';?>
 </div>
 
-<!-- Category List Ends-->
-<!-- Images Are Load Here-->
 
+
+
+<!-- Category List Ends-->
+<!-- Images Are Load Here
+Script starets Her
 <script>
 $('.scroll').jscroll({
   debug:true ,
@@ -118,10 +125,11 @@ $('.scroll').jscroll({
     padding: 20
 });
 </script>
+-->
 </div>
 </div>
 
-  <!-- footer Starts -->
-<?php include('parts/footer.php');?>
+  <!-- footer Starts
+<?php include('parts/footer.php');?>-->
 </body>
 </html>
