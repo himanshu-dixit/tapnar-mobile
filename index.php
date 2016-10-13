@@ -61,12 +61,20 @@
 <!-- COntent Starts -->
 <div class="content">
   <div class="container1 image_container">
+<div class="scroll" style="display:inline-block;">
+<?php include 'module/images/index_module_2.php';?>
+</div>
 
-<?php include 'module/images/index_module.php';?>
 <!-- Category List Ends-->
 <!-- Images Are Load Here-->
 
-
+<script>
+$('.scroll').jscroll({
+  debug:true ,
+        loadingHtml: '</div><div><center><img src="http://tapnar.com/zone/zupload/src/f61qwse48q.jpg" /></center></div>',
+    padding: 20
+});
+</script>
 </div>
 </div>
 <!-- COntent Ends -->

@@ -28,10 +28,10 @@ $format = $row['format'];
 
 
 <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/'.$title;?>/<?php echo $row['image_key'];?>">
-<div class="" id="image_box" style="width:100%;" title="<?php echo $row['title'];?>">
+<div class="image_box_left border_image_box" id="image_box" style="width:100%;" title="<?php echo $row['title'];?>">
 <div class="single_list" >
 
-  <div id="image_view" style="max-height:190px;overflow:hidden;">
+  <div id="image_view" class="left_image" style="">
 
     <?php if($format=='mp4' || $format =='gif'){ ?>
     <div class="gif_tag" style=""><strong>GIF</strong></div>
@@ -43,22 +43,24 @@ $format = $row['format'];
   } else { echo $row['format'];}?>" style="width:100%" /> -->
 
 
-  <img src="http://tapnar.com/zone/zupload/src/f8ma29n9wc.jpg" width="100%" />
+  <img src="http://tapnar.com/zone/zupload/src/f8ma29n9wc.jpg" width="130px" />
 </div>
 
-  <div class="single_image_text"<?php if($format=='mp4' || $format =='gif'){ ?> onmouseover="move(this)" onmouseout="change(this)" data-id="<?php echo $row['image_key'];?>" <?php } ?> style='background-image:url("");'>
+  <div class="single_image_text single_image_left"<?php if($format=='mp4' || $format =='gif'){ ?> onmouseover="move(this)" onmouseout="change(this)" data-id="<?php echo $row['image_key'];?>" <?php } ?> style='background-image:url("");'>
 
 
-<div class="info_box">
+<div class="info_box left_info_box">
   <div class="left_info">
-<div class="single_image_title"><?php echo substr($row['title'],0,32);?></div>
+<div class="single_image_titleF"><?php echo substr($row['title'],0,32);?></div>
 <div class="single_image_desc">
-  <span class="">himanshu</span>
-  <span class="single_comments">21 Comments</span>
-  <span class="single_view">19 views</span>
+<div class="info_left_small view_left_info">
+
+
+  <!--<span class="single_view small_text small_text_info">19 views</span>-->
+  <span class="single_view small_text small_text_info">10 comments</span>
+
 </div>
-</div>
-<div class="right_info">
+<div class="left_info_right">
   <div class="votes">
   12<!--to Be Replaced With Count-->
   </div>
@@ -71,6 +73,11 @@ $format = $row['format'];
   <div class="favorite">
 
   </div>
+</div>
+
+</div>
+</div>
+<div class="right_info right_info_small">
 
 
 </div>
