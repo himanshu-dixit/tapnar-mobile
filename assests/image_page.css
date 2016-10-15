@@ -361,12 +361,12 @@ width: 100%;
   color:#fff;
 }
 .title{
-  margin: 20px 0px 5px 27px;
+  margin: 15px 0px 5px 17px;
     font-size: 19px;
     font-weight: 600;
 }
 .info_layer{
-    margin: 0px 0px 0px 27px;
+    margin: 0px 0px 0px 17px;
     font-size: 13px;
 }
 .comments_info{
@@ -374,6 +374,9 @@ width: 100%;
 }
 .views_info{
   margin-left: 8px;
+}
+#image_content{
+  margin-top: 12px;
 }
 /* Smaller */
 

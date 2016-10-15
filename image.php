@@ -81,9 +81,9 @@ $title1 =   str_replace("?","",$title);
 
         <meta property="fb:app_id"      content="1031922230219226">
         <meta property="og:site_name"   content="TAPNAR">
-        <meta property="og:url"         content="<?php  if($format=="mp4"){ ?>http://<?php echo $_SERVER['SERVER_NAME'];?>/zone/zupload/gif/<?php echo $image_key.'.gif';?><?php } else { ?>http://<?php echo $_SERVER['SERVER_NAME'];?>/zone/zupload/src/<?php echo $image_key.'.'.$format;?><?php } ?>">
+        <meta property="og:url"         content="<?php  if($format=="mp4"){ ?>http://tapnar.com/zone/zupload/gif/<?php echo $image_key.'.gif';?><?php } else { ?>http://tapnar.com/zone/zupload/src/<?php echo $image_key.'.'.$format;?><?php } ?>">
           <meta property="og:type"        content="video.other">
-          <meta property="og:image"       content="<?php  if($format=="mp4"){ ?>http://<?php echo $_SERVER['SERVER_NAME'];?>/zone/zupload/gif/<?php echo $image_key.'.gif';?><?php } else { ?>http://<?php echo $_SERVER['SERVER_NAME'];?>/zone/zupload/src/<?php echo $image_key.'.'.$format;?><?php } ?>">
+          <meta property="og:image"       content="<?php  if($format=="mp4"){ ?>http://tapnar.com/zone/zupload/gif/<?php echo $image_key.'.gif';?><?php } else { ?>http://tapnar.com/zone/zupload/src/<?php echo $image_key.'.'.$format;?><?php } ?>">
 
             <link rel="canonical" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/'.$title1;?>/<?php echo $_GET['u'];?>"/>
 
@@ -127,6 +127,27 @@ $title1 =   str_replace("?","",$title);
   <span class="views_info">
     91 Views
   <span>
+</div>
+
+<div id="image_content">
+  <?php if($format<>'mp4'){ ?>
+<img src="http://tapnar.com/zone/zupload/src/<?php echo $image_key.'.'.$format;?>" width="100%">
+<?php } else{
+
+if($mode=="gif"){ ?>
+<img src="http://tapnar.com/zone/zupload/gif/<?php echo $image_key.'.gif';?>" width="100%">
+<?php }
+else{
+  ?>
+
+  <video id="tapnar-<?php echo $image_key;?>" onmouseover="allow(this)" onmouseout="mute(this)"  class="video-js" preload="auto" style="width:100%;height:100%;" loop autoplay>
+     <source src="http://tapnar.com/zone/zupload/src/<?php echo $image_key;?>.mp4" type='video/mp4'>
+     <p class="vjs-no-js">
+Your Broweser Doesn't Support This Type Of Content. Please Select GIF Mode From Link Below.
+     </p>
+   </video>
+
+  <?php } } ?>
 </div>
 
 
