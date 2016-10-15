@@ -103,14 +103,36 @@ $title1 =   str_replace("?","",$title);
 <?php include 'parts/menu.php';?>
 
   <!-- Swipe Menu Ends -->
-<?php include 'parts/header.php';?>
+<?php include 'parts/image_page_header.php';?>
 <!-- Top Bar Ends -->
 <!-- COntent Starts -->
-<div class="content">
+<div class="content main_content">
   <div class="container1 image_container">
-<div class="scroll" style="display:inline-block;">
-<?php // include 'module/images/index_module_2.php';?>
+
+<div class="top-layer">
+
+
+<div class="title">
+ Battlefield Intenses Gaming Showdown
 </div>
+
+<div class="info_layer">
+
+  <span class="author">
+    himanshu_dixit
+  <span>
+  <span class="comments_info">
+    21 Comments
+  <span>
+  <span class="views_info">
+    91 Views
+  <span>
+</div>
+
+
+<div>
+
+
 
 
 

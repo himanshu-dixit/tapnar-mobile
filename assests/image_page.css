@@ -355,6 +355,26 @@ width: 100%;
   border-top: .2px solid #3c3d40;
   margin-top:1px;
 }
+
+/* Image Page Starts */
+.main_content{
+  color:#fff;
+}
+.title{
+  margin: 20px 0px 5px 27px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.info_layer{
+    margin: 0px 0px 0px 27px;
+    font-size: 13px;
+}
+.comments_info{
+  margin-left: 8px;
+}
+.views_info{
+  margin-left: 8px;
+}
 /* Smaller */
 
 @media (max-width:375px)  {
