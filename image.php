@@ -117,19 +117,29 @@ $title1 =   str_replace("?","",$title);
 </div>
 
 <div class="info_layer">
+  <div class="left_info_layer">
 
-  <span class="author">
-    himanshu_dixit
-  <span>
-  <span class="comments_info">
-    21 Comments
-  <span>
-  <span class="views_info">
-    91 Views
-  <span>
+  <div class="author">
+ By <span class="author_text">himanshu_dixit</span>
+  </div>
+    <div class="author">
+  9 Hour
+    <div>
+      <div>
+
+  </div>
+  </div>
+  </div>
+  </div>
+
+<div class="right_info_layer">
+  <div class="app_notify">Next</div>
+</div>
+
 </div>
 
 <div id="image_content">
+  <div class="show_content">
   <?php if($format<>'mp4'){ ?>
 <img src="http://tapnar.com/zone/zupload/src/<?php echo $image_key.'.'.$format;?>" width="100%">
 <?php } else{
@@ -148,6 +158,41 @@ Your Broweser Doesn't Support This Type Of Content. Please Select GIF Mode From 
    </video>
 
   <?php } } ?>
+</div>
+</div>
+
+<div>
+  <div class="left_info">
+
+    <div class="upvote">
+
+    </div>
+    <div class="downvote">
+
+    </div>
+    <div class="favorite">
+
+    </div>
+    <div class="votes">
+    12 Points
+    <br>2122 Views<!--to Be Replaced With Count-->
+    </div>
+  </div>
+<div class="right_info">
+
+
+  <span class="source">Source - <i>Google</i></span>
+</div>
+
+</div>
+
+<div class="social_icon_box">
+ <div class="social_icon facebook"><center><i class="fa fa_social fa-facebook" aria-hidden="true"></i></center> </div>
+ <div class="social_icon twitter"><center><i class="fa fa_social fa-twitter" aria-hidden="true"></i></center> </div>
+ <div class="social_icon pinterest"><center><i class="fa fa_social fa-pinterest" aria-hidden="true"></i></center> </div>
+   <div class="social_icon reddit"><center><i class="fa fa_social fa-reddit" aria-hidden="true"></i></center> </div>
+   <div class="social_icon whatsapp"><center><i class="fa fa_social fa-whatsapp" aria-hidden="true"></i></center> </div>
+
 </div>
 
 
@@ -170,6 +215,14 @@ $('.scroll').jscroll({
 </script>
 -->
 </div>
+</div>
+
+<div class="open_in_app">
+  <center>
+  <div class="open_button">
+    Open In App
+  </div>
+</center>
 </div>
 
   <!-- footer Starts

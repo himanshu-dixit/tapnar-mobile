@@ -1,6 +1,6 @@
 html,body{
   width:100%;
-  background-color:#1b1b1b;
+  background-color:#2a2a36;
   font-family: "Open Sans";
 
 }
@@ -225,7 +225,7 @@ font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
 font-weight: 600;
 }
 .single_image_desc{
-  font-size: 9.7px;
+  font-size: 11px;
 }
 .single_author{
   margin-left: 5px;
@@ -243,14 +243,24 @@ font-weight: 600;
 .right_info{
   float:right;
   margin-left: 6px;
-      margin-right: 5px;
+      margin-right: 20px;
+      margin-top: 20px;
+}
+.left_info{
+  float:left;
+  margin-left: 14px;
+  margin-top: 6px;
+  font-size: 11px;
+}
+.mute{
+  margin-left: 10px;
 }
 .votes{
   float: left;
-      margin-right: 3px;
-      font-size: 17.5px;
-      font-weight: 600;
-      margin-top: 10px;
+    margin-left: 22px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
 }
 .upvote{
   float: left;
@@ -263,7 +273,7 @@ font-weight: 600;
 }
 .downvote{
   float: left;
-  margin-left: 4px;
+margin-left: 15px;
     background-image: url(sprite.png);
     background-size: 360px 360px;
     width: 34px;
@@ -272,7 +282,7 @@ font-weight: 600;
 }
 .favorite{
   float: left;
-    margin-left: 5px;
+    margin-left: 18px;
   background-image: url(sprite.png);
   background-size: 360px 360px;
   width: 34px;
@@ -362,12 +372,12 @@ width: 100%;
 }
 .title{
   margin: 15px 0px 5px 17px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
 }
 .info_layer{
-    margin: 0px 0px 0px 17px;
-    font-size: 13px;
+    margin: 0px 0px 0px 21px;
+    font-size: 14px;
 }
 .comments_info{
   margin-left: 8px;
@@ -375,9 +385,101 @@ width: 100%;
 .views_info{
   margin-left: 8px;
 }
+.author_text{
+  color:#a990fb;
+  margin-left: 5px;
+}
+.right_info_layer{
+  float:right;
+
+}
+.left_info_layer{
+  float:left;
+}
+.app_notify {
+    padding: 8px 33px;
+    margin-right: 21px;
+    border: 1px solid #a5a2ab;
+    border-radius: 2px;
+    width: 100px;
+}
 #image_content{
   margin-top: 12px;
+
 }
+.show_content{
+    margin-top: 57px;
+}
+
+/* Open In App */
+.open_in_app{
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+
+}
+.open_button{
+  padding: 16px 18px;
+  background-color: #4a7ff7;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0.5px 0.866px 11px 0px rgba(0, 0, 0, 0.833);
+  width: 165px;
+  font-weight: 600;
+}
+/* Social Icon */
+
+.fa_social{
+  text-decoration: none;
+  font-size: 28px;
+  color:#fff;
+    margin-top: 13px;
+}
+.social_icon:hover .fa{
+
+  text-decoration: none;
+  font-size: 30px;
+  color:#fff;
+  margin-top: 9px;
+
+}
+
+.social_icon_box{
+  float:left;
+  margin: 15px 10px 5px 10px;
+}
+.social_icon{
+  float: left;
+  height: 52px;
+  width: 70px;
+  margin-right: 10px;
+  border-radius: 1px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.facebook{
+background-color: #3191FF;
+}
+.twitter{
+background-color: #00ccff;
+}
+
+.pinterest{
+background-color: #e54cb5;
+}
+
+.reddit{
+background-color: #fc6669;
+}
+
+.whatsapp{
+background-color: #25d366;
+}
+.instagram{
+background-color: #8a23fe;
+}
+
 /* Smaller */
 
 @media (max-width:375px)  {
@@ -423,8 +525,5 @@ width: 100%;
   /* Custom For Refixing */
 
   @media (max-width:375px)  {
-    .favorite{
-display: none;
-      /*margin-left: -2%;*/
-    }
+
    }

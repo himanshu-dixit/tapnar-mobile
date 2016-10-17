@@ -1,6 +1,6 @@
 html,body{
   width:100%;
-  background-color:#1b1b1b;
+  background-color:#2a2a36;
   font-family: "Open Sans";
 
 }
@@ -354,6 +354,23 @@ width: 100%;
 .border_image_box{
   border-top: .2px solid #3c3d40;
   margin-top:1px;
+}
+
+.open_in_app{
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+
+}
+.open_button{
+  padding: 16px 18px;
+  background-color: #4a7ff7;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0.5px 0.866px 11px 0px rgba(0, 0, 0, 0.833);
+  width: 165px;
+  font-weight: 600;
 }
 /* Smaller */
 

@@ -32,6 +32,13 @@
 <?php include 'module/images/index_module_2.php';?>
 </div>
 
+<div class="open_in_app">
+  <center>
+  <div class="open_button">
+    Open In App
+  </div>
+</center>
+</div>
 <!-- Category List Ends-->
 <!-- Images Are Load Here-->
 
