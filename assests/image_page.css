@@ -34,7 +34,7 @@ height: 46px;
     box-shadow: 0.5px 0.866px 11px 0px rgba(0, 0, 0, 0.833);
   color:#fff;
   position: fixed;
-  z-index: 200;
+  z-index: 7;
 }
 .topbar_logo{
   font-style : "Arial";
