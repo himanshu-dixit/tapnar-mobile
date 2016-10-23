@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Login | Tapnar</title>
+  <title>Tapnar | Best Images on Internet Worth Clicking</title>
   <meta charset="utf-8" />
 <meta name="description" content="Tapnar | Most Popular Images & GIF On Internet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +9,35 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <script src="parts/jquery.jscroll.js"></script>
 
-  <link rel="stylesheet" href="assests/login.css" />
+
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="assests/index.css" />
+    <link rel="stylesheet" href="assests/login.css" />
 </head>
 <body>
+  <!-- Swipe Menu Start -->
+<?php include 'parts/menu.php';?>
+
+  <!-- Swipe Menu Ends -->
+<?php include 'parts/header.php';?>
 
 
   <video poster="http://tapnar.com/assests/login.jpg" id="bgvid" playsinline autoplay muted loop>
-      <source src="http://tapnar.com/assests/login.mp4" type="video/mp4">
+      <source src="https://media.giphy.com/media/JOK5PP5Ol2Hzq/giphy.mp4" type="video/mp4">
   </video>
 
 
 
 <div class="content" id="start">
-  <div class="container main_image_body">
-<div id="top_bar">
-<a href="signup.php">
-<div class="signin">SIGN UP</div>
-</a>
-  <div>
-</div>
-</div></div>
+
 <br><br>
-<div class="container main_image_body" style="width:800px;">
-  <center><div class="logo"><img src="http://tapnar.com/resources/3s.png" height="54px" style="margin: -1px 0px 0px -34px" /></div></center><br>
+<div class="container main_image_body" >
+  <center><div class="logo"><img src="http://tapnar.com/resources/3s.png" height="54px" style="margin: -1px 0px 0px -24px" /></div></center><br>
 
 
 <div>
@@ -58,6 +63,10 @@
 
 <center>
 <div class="button" id="email_connect"><center>LOGIN</center></div></center>
+
+<!--<center>
+<div class="button" id="email_connect" style="background-color:#fdb94f;"><center>SINGUP</center></div></center>
+-->
 
 <div class="join_tapnar" style="margin-top:20px;"><center>
 <span class="no_account">Don't Have A Account | </span> <a href="signup.php"><span class="join_tapnar">SIGN UP</span></a>
