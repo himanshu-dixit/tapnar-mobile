@@ -185,7 +185,7 @@ Your Broweser Doesn't Support This Type Of Content. Please Select GIF Mode From 
 </div>
 
 </div>
-
+<div class="below_content">
 <div class="social_icon_box">
  <div class="social_icon facebook"><center><i class="fa fa_social fa-facebook" aria-hidden="true"></i></center> </div>
  <div class="social_icon twitter"><center><i class="fa fa_social fa-twitter" aria-hidden="true"></i></center> </div>
@@ -195,10 +195,12 @@ Your Broweser Doesn't Support This Type Of Content. Please Select GIF Mode From 
 
 </div>
 
+</div>
+
+<?php include 'module/comments/comment-button.php';?>
+
 
 <div>
-
-
 
 
 
