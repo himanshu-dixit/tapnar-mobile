@@ -218,7 +218,7 @@ $('.scroll').jscroll({
 -->
 </div>
 </div>
-
+<!--
 <div class="open_in_app">
   <center>
   <div class="open_button">
@@ -226,6 +226,7 @@ $('.scroll').jscroll({
   </div>
 </center>
 </div>
+-->
 
   <!-- footer Starts
 <?php include('parts/footer.php');?>-->

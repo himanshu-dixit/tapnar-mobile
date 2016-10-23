@@ -437,9 +437,9 @@ background-color: #665aff;
 
 .fa_social{
   text-decoration: none;
-  font-size: 28px;
-  color:#fff;
-    margin-top: 13px;
+  font-size: 26px;
+  color: #fff;
+  margin-top: 11px;
 }
 .social_icon:hover .fa{
 
@@ -459,12 +459,12 @@ background-color: #665aff;
 }
 .social_icon{
   float: left;
-  height: 52px;
-  width: 70px;
-  margin-right: 10px;
-  border-radius: 1px;
-  margin-top: 10px;
-  font-size: 24px;
+      height: 46px;
+      width: 75px;
+      margin-right: 10px;
+      border-radius: 1px;
+      margin-top: 10px;
+      font-size: 24px;
 }
 .facebook{
 background-color: #3191FF;
@@ -497,6 +497,30 @@ background-color: #8a23fe;
       width: 100%;
       float: left;
       margin-top: 20px;
+}
+.comment_title_bar{
+  padding: 3px 25px 0px 15px;
+}
+.comment_title_bar_left
+{
+  float:left;
+}
+
+.comment_title_bar_right
+{
+  float:right;
+}
+.fa-comment{
+  margin-right: 6px;
+}
+.sorted{
+  margin-left: 10px;
+  color: #a48aff;
+}
+
+.comment_list{
+  width: 100%;
+  margin-top: 30px;
 }
 
 
