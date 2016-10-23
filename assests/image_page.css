@@ -514,16 +514,61 @@ background-color: #8a23fe;
   margin-right: 6px;
 }
 .sorted{
-  margin-left: 10px;
-  color: #a48aff;
+    margin-left: 10px;
+    color: #a48aff;
 }
+.author{
+  margin-left: 5px;
+  color: #a48aff;
+  font-size: 11px;
+}
+.time{
+  margin-left: 6px;
+  color: #a48aff;
+  font-size: 11px;
+}
+
+.replies{
+  margin-left: 6px;
+  color: #a48aff;
+  font-size: 11px;
+}
+
 
 .comment_list{
   width: 100%;
   margin-top: 30px;
 }
 
+.comment_text_bar_left
+{
+  float:left;
+  margin-left: 20px;
+}
+.comment_item_bar{
+  border-top: 1px solid #35353e;
+  padding: 13px 0px 04px 0px;
+  display: inline-block;
+}
+.comment_text_bar_right
+{
+  float:right;
+}
+.downvote_comment{
+  margin: 0px 9px 0px 4px;
+}
+.vote_count{
+  float: left;
+  font-weight: 700;
+  font-size: 17px;
+  margin-right: 4px;
+  margin-top:6px;
+}
 
+.comment_media{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
 /* Smaller */
 
 @media (max-width:375px)  {
@@ -546,12 +591,42 @@ background-color: #8a23fe;
   }
 
 /* smartphones, iPhone, portrait 480x320 phones */
-@media (max-width:320px)  {
 
+}
+
+@media (max-width:450px)  {
+  .comment_text_bar_left {
+    width: 64%;
+}
+}
+ @media (max-width:400px)  {
+   .comment_text_bar_left {
+     width: 63%;
  }
+}
+
+   @media (max-width:355px)  {
+     .comment_text_bar_left {
+       width: 59%;
+   }
+}
+
+  @media (max-width:335px)  {
+    .comment_text_bar_left {
+      width: 55%;
+  }
+
+   }
 
  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-@media (min-width:481px)  {
+ @media (min-width:400px)  {
+   .comment_text_bar_left {
+           width: 64%;
+ }
+@media (min-width:450px)  {
+  .comment_text_bar_left {
+          width: 70%;
+}
 
  }
  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
