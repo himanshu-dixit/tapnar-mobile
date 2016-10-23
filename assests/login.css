@@ -15,7 +15,7 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-#email,#password{
+#name,#email,#password{
     max-width: 95%;
 }
 .logo{
