@@ -569,6 +569,60 @@ background-color: #8a23fe;
   max-width: 100%;
   margin-bottom: 10px;
 }
+/* Enter Comment */
+.write_comment_box{
+  display:none;
+  width:100%;
+  height: 130px;
+  background-color: #fff;
+  bottom:0px;
+  position: fixed;
+  box-shadow: 0.5px 0.866px 11px 0px rgba(0, 0, 0, 0.733);
+  z-index: 100;
+}
+.write_comment_text{
+  float: left;
+  height: 128%;
+  width: 80%;
+  padding: 15px 14px;
+  color: #676767;
+}
+.write_comment_text:focus{
+     outline: none;
+}
+.write_comment_button{
+  float:right;
+}
+.write_comment_bar{
+  padding: 0px 5px;
+}
+.media_box{
+  height: 80px;
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: auto;
+}
+.load_more_gifs{
+  background-color: #ececec;
+  width: 135px;
+  color: #1c5af1;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.media_box_element{
+  height: 80px;
+  background-size: cover;
+/*  width: 135px;*/
+	display: inline-block;
+  margin: -2px;
+}
+
+.send{
+  margin-top: 14px;
+  margin-right: 18px;
+  color: #4370f9;
+  font-size: 21px;
+}
 /* Smaller */
 
 @media (max-width:375px)  {

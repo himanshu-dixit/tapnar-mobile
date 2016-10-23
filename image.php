@@ -198,6 +198,7 @@ Your Broweser Doesn't Support This Type Of Content. Please Select GIF Mode From 
 </div>
 
 <?php include 'module/comments/comment-button.php';?>
+<?php include 'module/comments/type_comment.php';?>
 
 
 <div>
@@ -218,15 +219,23 @@ $('.scroll').jscroll({
 -->
 </div>
 </div>
-<!--
+
 <div class="open_in_app">
   <center>
   <div class="open_button">
-    Open In App
+    Write Comment
   </div>
 </center>
 </div>
--->
+
+<script>
+
+$( ".open_in_app" ).click(function() {
+ document.getElementsByClassName("open_in_app")[0].style = "display:none;";
+  document.getElementsByClassName("write_comment_box")[0].style = "display:block;";
+});
+
+</script>
 
   <!-- footer Starts
 <?php include('parts/footer.php');?>-->
