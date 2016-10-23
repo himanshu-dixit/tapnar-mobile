@@ -15,31 +15,36 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-#name,#email,#password{
+#link{
     max-width: 95%;
 }
-.logo{
-  font-style : "Arial";
-
-  color:#fff;
-  width:106px;
-  font-size:34px;
-
-  font-weight:600;
-
-height:50px;
+.upload_text{
+  font-family: Arial;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  width: 147px;
+  font-size: 34px;
+  font-weight: 800;
+  height: 50px;
+  margin-top: 43px;
 }
-.facebook_login{
+.upload_button{
   height:60px;
   width:400px;
   max-width: 95%;
   background-color: #3472ff;
-  margin-top: 20px;
+  margin-top: 48px;
   color: white;
   font-size: 16px;
-padding-top: 19px;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
 }
-
+.upload_device_text{
+  color:white;
+}
 .button{
   height:60px;
   width:400px;
@@ -52,11 +57,10 @@ padding-top: 19px;
 }
 
 .or{
-  font-size:12px;
-  color:grey;
-  margin-top:15px;
+  font-size: 13px;
+  color: #fbfbfb;
+  margin-top: 22px;
   margin-bottom: 15px;
-
 }
 .no_account{
   font-size: 12px;
@@ -64,18 +68,14 @@ padding-top: 19px;
 
 }
 
-.join_tapnar{
+.upload_reminder{
   padding-left: 6px;
   font-size: 14px;
   color:white;
 
 }
 
-.forgot_password{
-  font-size: 14px;
-  color:white;
 
-}
 a{
   color:white;
 }
@@ -91,6 +91,32 @@ cursor:pointer;
     margin-top:48px !important;
 
 }
-.logo_image{
-  display: none;
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #fff;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+.reminder_bar{
+  margin-top:20px;
+  bottom:20px;
+  position:absolute;
+  width:92%;
+  color:#fff;
+}
+.link_box{
+  font-weight: 600;
+  width:400px;
+  height:60px;
+  padding:15px;
+  max-width: 95%;
+  text-align: center;
+  margin-top:10px;
+  border: none !important;
 }

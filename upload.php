@@ -26,60 +26,49 @@
   <!-- Swipe Menu Ends -->
 <?php include 'parts/header.php';?>
 
-
   <video poster="http://tapnar.com/assests/login.jpg" id="bgvid" playsinline autoplay muted loop>
       <source src="https://media.giphy.com/media/JOK5PP5Ol2Hzq/giphy.mp4" type="video/mp4">
   </video>
 
-
-
 <div class="content" id="start">
-
-<br><br>
+<br>
+<br>
 <div class="container main_image_body" >
-  <center><div class="logo"><img src="http://tapnar.com/resources/3s.png" height="54px" style="margin: -1px 0px 0px -24px" /></div></center><br>
+  <center><div class="upload_text">UPLOAD</div></center>
+  <center>
+    <span class="upload_device_text">
+    Upload Images and Short Videos
+  </span>
+  </center>
 
 
 <div>
 <center>
-<div class="facebook_login" id="facebook_connect"><center>Login With Facebook</center></div></center>
+<div class="upload_button" id="upload_connect">
+  <center>Select Image/Video From Device</center>
+</div>
+</center>
 
 <div class="or">
   <center>OR</center></div>
-
-
-<center>
-  <div class="email">
-    <input id="email" name="email" placeholder="Email" type="text" style="width:400px;height:60px;padding-left:15px; border: none !important;">
-  </div>
-</center>
-
-
 <center>
   <div class="password">
-    <input id="password" name="password" placeholder="Enter Your  Password" type="password" style="width:400px;height:60px;padding-left:15px;margin-top:10px; border: none !important;">
+    <input id="link" name="link" placeholder="Enter Video/Image Link" type="text" class="link_box">
   </div>
 </center>
 
 <center>
-<div class="button" id="email_connect"><center>LOGIN</center></div></center>
 
 <!--<center>
 <div class="button" id="email_connect" style="background-color:#fdb94f;"><center>SINGUP</center></div></center>
 -->
 
-<div class="join_tapnar" style="margin-top:20px;"><center>
-<span class="no_account">Don't Have A Account | </span> <a href="signup.php"><span class="join_tapnar">SIGN UP</span></a>
+<div class="reminder_bar" ><center>
+<span class="pload_reminder">Login to Save Images To Account</span>
 </center>
 </div>
 
 
-<div class="forgot_password" style="margin-top:10px;"><center>
-<a href="login.php"><span class="forgot_password">Forgot Password </span></a>
-
-
-</center>
-</div>
 
 </div>
 <script>
