@@ -1,7 +1,7 @@
 <div class="banner_block">
 <div class="banner">
 <div class="close">
-<i class="fa fa-times-circle" aria-hidden="true"></i>
+  <i class="fa fa-close close_icon" aria-hidden="true"></i>
 </div>
   <div class="banner_left">
 <div class="rep">
@@ -14,6 +14,9 @@
   </div>
   <div class="banner_desc">
     Awesome Images on your phone.
+  </div>
+  <div class="banner_desc_other">
+    Awesome Images.
   </div>
 
 </div>
