@@ -25,6 +25,8 @@
   <!-- Swipe Menu Ends -->
 <?php include 'parts/header.php';?>
 <!-- Top Bar Ends -->
+<!--Top Banner -->
+<?php include 'parts/banner_block.php';?>
 <!-- COntent Starts -->
 <div class="content">
   <div class="container1 image_container">

@@ -22,7 +22,7 @@ margin : 0 auto;
   width:100%;
 height: 46px;
   background-color: rgb(33, 33, 36);
-/*  box-shadow: 0.5px 0.866px 5px 0px rgba(0, 0, 0, 0.133); */
+  box-shadow: 0.5px 0.866px 5px 0px rgba(0, 0, 0, 0.333); 
   color:#fff;
 }
 .topbar_logo{

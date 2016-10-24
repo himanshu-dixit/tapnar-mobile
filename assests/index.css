@@ -31,7 +31,7 @@ margin : 0 auto;
   width:100%;
 height: 46px;
   background-color: #6b3dff;
-    box-shadow: 0.5px 0.866px 11px 0px rgba(0, 0, 0, 0.833);
+    box-shadow: 0.5px 0.866px 11px 0px rgba(0, 0, 0, 0.333);
   color:#fff;
   position: fixed;
   z-index: 5;
@@ -198,7 +198,7 @@ font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
 /*Search Box Ends Container Starts */
 
 .image_container{
-  padding-top: 48px;
+/*  padding-top: 48px;*/
 }
 
 .gif_tag{
@@ -372,6 +372,68 @@ width: 100%;
   width: 165px;
   font-weight: 600;
 }
+/* banner */
+.banner{
+  height: 70px;
+  width: 100%;
+  background-color: #ff4771;
+
+}
+.banner_block{
+    padding-top: 48px;
+}
+.banner_left{
+  float:left;
+}
+.banner_right{
+  float:right;
+}
+.rep{
+  float: left;
+}
+.info{
+  float: left;
+}
+.close{
+  position: absolute;
+  color: white;
+  size:16px;
+
+}
+.banner_icon{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 19px;
+  margin-left: 24px;
+  margin-right: 3px;
+}
+.banner_title{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 12px;
+  padding-left: 8px;
+}
+.banner_desc{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 8px;
+}
+.install_button{
+  padding: 11px 32px;
+  margin-right: 14px;
+  color: #fff;
+  background-color: #3e3a4a;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-top: 16px;
+}
+.fa-close{
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
 /* Smaller */
 
 @media (max-width:375px)  {
