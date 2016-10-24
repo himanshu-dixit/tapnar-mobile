@@ -16,7 +16,7 @@
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assests/login.css" />
-  <link rel="stylesheet" href="assests/index.css" />
+  <link rel="stylesheet" href="assests/user.css" />
 </head>
 <body>
   <!-- Swipe Menu Start -->
@@ -28,9 +28,24 @@
 <!-- COntent Starts -->
 <div class="content">
   <div class="container1 image_container">
-<div class="scroll" style="display:inline-block;">
-<?php include 'module/images/index_module.php';?>
 </div>
+</div>
+<div class="user_block" style="background-image:url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/05/01/10/maxresdefault.jpg');">
+  <div class="content">
+    <div class="container1 image_container">
+
+  </div>
+  </div>
+</div>
+<div class="user_bar">
+
+</div>
+
+
+<div class="scroll" style="display:inline-block;">
+<?php //include 'module/images/index_module.php';?>
+</div>
+
 
 <?php include ('parts/open_in_app.php');?>
 <!-- Category List Ends-->
