@@ -407,6 +407,37 @@ width: 100%;
   width:100%;
   background-color: #1c1c27;
 }
+.user_bar_left{
+  float:left;
+  padding-left: 4px;
+}
+.user_bar_right{
+  float:right;
+}
+
+.uactivitiy_block{
+  color: #8093ff;
+  margin-left: 24px;
+  padding-top: 16px;
+  float: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ua_active{
+    color: #fff !important;
+}
+.follow_button{
+  padding: 8px 13px;
+  margin-right: 14px;
+  color: #fff;
+  background-color: #1e6fec;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.fb_disabled{
+  background-color: #3b4052;
+}
 /* Smaller */
 
 @media (max-width:375px)  {

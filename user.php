@@ -51,12 +51,30 @@
 </div>
 <div class="user_bar">
 
+<div class="user_bar_left">
+
+<div class="uactivitiy_block ua_active">
+  All
+</div>
+<div class="uactivitiy_block">
+  Post
+</div>
+<div class="uactivitiy_block">
+  Activity
+</div>
+
+</div>
+
+
+<div class="user_bar_right">
+<div class="follow_button">Follow &nbsp; | 25</div>
+</div>
 
 </div>
 
 
 <div class="scroll" style="display:inline-block;">
-<?php //include 'module/images/index_module.php';?>
+<?php include 'module/images/index_module.php';?>
 </div>
 
 
