@@ -34,10 +34,23 @@
   <div class="content">
     <div class="container1 image_container">
 
+  <center>
+     <div class="profile_pic" style="background-image:url('https://pbs.twimg.com/profile_images/422587147124604928/hlT0oR0m_400x400.png');">
+      </div>
+      <div class="user_bar_name">
+        Adam D' Angelo
+      </div>
+      <div class="user_bar_point">
+        260 Point | 13 Trophies
+      </div>
+  </center>
+
+
   </div>
   </div>
 </div>
 <div class="user_bar">
+
 
 </div>
 
