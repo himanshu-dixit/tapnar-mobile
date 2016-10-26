@@ -258,8 +258,8 @@ font-weight: 600;
 }
 .votes{
   float: left;
-    margin-left: 22px;
-  font-size: 12px;
+  margin-left: 22px;
+  font-size: 11px;
   font-weight: 600;
   margin-top: 5px;
 }
@@ -317,7 +317,9 @@ margin-left: 15px;
   height: 43px;
   background-position: -168px 0px;
 }
-
+.source{
+  font-size: 11px;
+}
 /*Small Image*/
 
 .left_image{
@@ -373,7 +375,7 @@ width: 100%;
 }
 .title{
   margin: 15px 0px 5px 17px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
 }
 .info_layer{
@@ -460,12 +462,12 @@ background-color: #665aff;
 }
 .social_icon{
   float: left;
-      height: 46px;
-      width: 75px;
-      margin-right: 10px;
-      border-radius: 1px;
-      margin-top: 10px;
-      font-size: 24px;
+  height: 46px;
+  width: 52px;
+  margin-right: 8px;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-size: 24px;
 }
 .facebook{
 background-color: #3191FF;
@@ -475,7 +477,7 @@ background-color: #00ccff;
 }
 
 .pinterest{
-background-color: #e54cb5;
+background-color: #ff3f72;
 }
 
 .reddit{
@@ -517,6 +519,7 @@ background-color: #8a23fe;
 .sorted{
     margin-left: 10px;
     color: #a48aff;
+    font-size: 12px;
 }
 .author{
   margin-left: 5px;
@@ -545,6 +548,7 @@ background-color: #8a23fe;
 {
   float:left;
   margin-left: 20px;
+  font-size: 12px;
 }
 .comment_item_bar{
   border-top: 1px solid #35353e;
@@ -560,10 +564,10 @@ background-color: #8a23fe;
 }
 .vote_count{
   float: left;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 13px;
   margin-right: 4px;
-  margin-top:6px;
+  margin-top: 12px;
 }
 
 .comment_media{
@@ -623,6 +627,10 @@ background-color: #8a23fe;
   margin-right: 18px;
   color: #4370f9;
   font-size: 21px;
+}
+strong {
+   font-weight: 600;
+   font-size: 12px;
 }
 /* Smaller */
 

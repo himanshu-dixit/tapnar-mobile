@@ -251,64 +251,75 @@ outline: none;
 }
 .votes{
   float: left;
-      margin-right: 3px;
-      font-size: 17.5px;
-      font-weight: 600;
-      margin-top: 10px;
+  margin-right: 7px;
+  font-size: 17.5px;
+  font-weight: 600;
+  margin-top: 11px;
 }
 .upvote{
   float: left;
-  margin-left: 9px;
   background-image: url(sprite.png);
-  background-size: 360px 360px;
-  width: 34px;
-  height: 43px;
-  background-position: -86px 0px;
+  background-size: 330px 330px;
+  width: 29px;
+  height: 33px;
+  background-position: -80px -1px;
+  margin-left: 4px;
+  margin-right: 3px;
+  margin-top: 2px;
 }
 .downvote{
   float: left;
   margin-left: 4px;
-    background-image: url(sprite.png);
-    background-size: 360px 360px;
-    width: 34px;
-    height: 43px;
-    background-position: -120px 0px;
+  background-image: url(sprite.png);
+  background-size: 330px 330px;
+  width: 29px;
+  height: 33px;
+  background-position: -113px 0px;
+  margin-left: 4px;
+  margin-right: 3px;
+  margin-top: 2px;
 }
 .favorite{
   float: left;
-    margin-left: 5px;
   background-image: url(sprite.png);
-  background-size: 360px 360px;
-  width: 34px;
-  height: 43px;
-  background-position: -213px 0px;
+  background-size: 330px 330px;
+  width: 29px;
+  height: 33px;
+  background-position: -197px 0px;
+  margin-left: 4px;
+  margin-right: 3px;
+  margin-top: 2px;
 }
 .upvote_click{
   float: left;
   margin-left: 9px;
   background-image: url(sprite.png);
-  background-size: 360px 360px;
-  width: 34px;
-  height: 43px;
-  background-position: -7px 0px;
+  background-position: -8px 0px;
+  background-size: 330px 330px;
+  width: 29px;
+  height: 33px;
 }
 .downvote_click{
   float: left;
   margin-left: 4px;
-    background-image: url(sprite.png);
-    background-size: 360px 360px;
-    width: 34px;
-    height: 43px;
-    background-position: -41px 0px;
+  background-image: url(sprite.png);
+  background-size: 330px 330px;
+  width: 29px;
+  height: 33px;
+  background-position: -41px 0px;
+  margin-left: 4px;
+  margin-right: 3px;
+  margin-top: 2px;
 }
 .favorite_click{
-  float: left;
-  margin-left: 5px;
   background-image: url(sprite.png);
-  background-size: 360px 360px;
-  width: 34px;
-  height: 43px;
-  background-position: -168px 0px;
+  background-size: 330px 330px;
+  width: 29px;
+  height: 33px;
+  background-position: -155px 0px;
+  margin-left: 4px;
+  margin-right: 3px;
+  margin-top: 2px;
 }
 
 /*Small Image*/
