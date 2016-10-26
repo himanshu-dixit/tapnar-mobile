@@ -29,6 +29,10 @@ $( ".close_button" ).click(function() {
   $(".menu_swipe").css("display", "none");
 });
 
+$( ".close_icon" ).click(function() {
+  $(".banner").css("display", "none");
+});
+
 $( ".fa-search" ).click(function() {
   var display = $(".search_box").css( "display" );
   if(display=="none"){
