@@ -237,7 +237,7 @@ $( ".open_in_app" ).click(function() {
 
 </script>
 
-  <!-- footer Starts
-<?php include('parts/footer.php');?>-->
+
+<?php include('parts/footer.php');?>
 </body>
 </html>

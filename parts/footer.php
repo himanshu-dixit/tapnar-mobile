@@ -17,22 +17,29 @@ function move(obj){
 }
 function change(obj){
   var one = obj.dataset.id;
-  obj.style.backgroundImage = 'url(http://<?php echo $_SERVER["SERVER_NAME"];?>/zone/zupload/thumb/'+one+'.jpg)'; 
+  obj.style.backgroundImage = 'url(http://<?php echo $_SERVER["SERVER_NAME"];?>/zone/zupload/thumb/'+one+'.jpg)';
 
 }
+//On Click Menu Open
+$( ".menu_icon" ).click(function() {
+  $(".menu_swipe").css("display", "block");
+});
+//Menu Close
+$( ".close_button" ).click(function() {
+  $(".menu_swipe").css("display", "none");
+});
+
+$( ".fa-search" ).click(function() {
+  var display = $(".search_box").css( "display" );
+  if(display=="none"){
+  $(".search_box").css("display", "block");
+ }
+ else {
+  $(".search_box").css("display", "none");
+ }
+
+});
+
   </script>
 
-  <div class="content">
-  <div class="container">
-    <a href="http://tapnar.com/privacy">
-  <div class="footer_item">Privacy</div></a>    <a href="http://tapnar.com/tos">
-  <div class="footer_item"> TOS</div></a>    <a href="http://tapnar.com/blog/faq">
-  <div class="footer_item">FAQ</div></a>    <a href="http://tapnar.com/blog/dmca">
-  <div class="footer_item">DMCA</div></a>
-  <div class="footer_item footer_right">Tapnar 2016-2017</div>
-
-
-</div>
-
-</div>
 </div>

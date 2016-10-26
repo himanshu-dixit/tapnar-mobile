@@ -100,7 +100,7 @@ float:left;
 
 .menu_swipe{
 display: none;
-position: absolute;
+position: fixedsssss;
 z-index: 10;
 width:70%;
 background-color:rgb(54, 54, 58);
@@ -162,9 +162,13 @@ background-color: #3f3f42;
 
 /*Search Box Start */
 .search_box{
-  display: none;
   height: 50px;
   background-color: #fff;
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+  z-index: 10;
+  display: none;
 }
 
 #search_input{
@@ -187,11 +191,11 @@ outline: none;
 font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
 }
 #search_icon{
-  width: 60px;
-  height: 49px;
+  width: 77px;
+  height: 50px;
   float: right;
-  margin-top: -1px;
-  padding-right: 18px;
+  margin-top: 0px;
+  padding-right: 28px;
   background-color: #21e8e8;
   padding-top: 1px;
 }

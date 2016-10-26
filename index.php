@@ -49,7 +49,7 @@ $('.scroll').jscroll({
 </div>
 <!-- COntent Ends -->
   <!-- footer Starts -->
-  <!--
-<?php //include 'parts/footer.php';?>-->
+
+<?php include 'parts/footer.php';?>
 </body>
 </html>
