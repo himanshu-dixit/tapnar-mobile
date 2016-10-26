@@ -55,7 +55,7 @@ float:left;
   padding-left: 7px;
 }
 .menu{
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 3px;
 }
 
@@ -66,10 +66,9 @@ float:left;
   color:#fff;
 }
 .upload{
-  font-size: 24px;
-  margin-top: 3px;
-    margin-right: 20px;
-
+  font-size: 20px;
+  margin-top: 4px;
+  margin-right: 20px;
 }
 
 .search{
@@ -79,10 +78,8 @@ float:left;
   color:#fff;
 }
 .search{
-
-      font-size: 22px;
-      margin-top: 2px;
-
+  font-size: 19px;
+  margin-top: 3px;
 }
 
 .left{
@@ -91,8 +88,8 @@ float:left;
 .logo_image{
   display: block;
   margin: auto;
-  padding-left: 16%;
-  margin-top: 3px;
+  padding-left: 21%;
+  margin-top: 4px;
 }
 
 
@@ -189,14 +186,16 @@ outline: none;
 }
 .icon_search_down{
   color: #fff;
-font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
+  font-size: 19px;
+  margin-top: 14px;
+  float: right;
 }
 #search_icon{
   width: 80px;
   height: 50px;
   float: right;
   margin-top: 0px;
-  padding-right: 27px;
+  padding-right: 29px;
   background-color: #21e8e8;
   padding-top: 1px;
 }
@@ -226,8 +225,8 @@ font-size: 24px;margin-left: -47px; margin-top: 12px;float: right;
 }
 
 .single_image_title{
-
-font-weight: 600;
+  font-size: 13px;
+  font-weight: 600;
 }
 .single_image_desc{
   font-size: 9.7px;
@@ -413,28 +412,28 @@ width: 100%;
   margin-top: 2px;
 }
 .banner_icon{
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
-  margin-top: 19px;
-  margin-left: 29px;
+  margin-top: 23px;
+  margin-left: 37px;
   margin-right: 3px;
 }
 .banner_title{
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 12px;
-  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 16px;
+  padding-left: 11px;
 }
 .banner_desc{
   color: #fff;
   font-size: 11px;
   font-weight: 600;
-  padding-left: 8px;
+  padding-left:11px;
   margin-top: 2px;
 }
 .install_button{
-  padding: 11px 32px;
+  padding: 10px 28px;
   margin-right: 14px;
   color: #fff;
   background-color: #3e3a4a;

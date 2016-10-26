@@ -6,7 +6,7 @@
     <i class="fa fa-bars menu" aria-hidden="true"></i>
     </div>
 
-  <div class="topbar_logo navbar_header" style="padding-top:7.5px;"><a href="htpp://tapnar.com"><img src="http://tapnar.com/resources/3s.png" height='30px' class="logo_image" /></a></div>
+  <div class="topbar_logo navbar_header" style="padding-top:7.5px;"><a href="htpp://tapnar.com"><img src="http://tapnar.com/resources/3s.png" height='25px' class="logo_image" /></a></div>
 
   <div class="search_icon">
   <i class="fa fa-search search" aria-hidden="true"></i>
