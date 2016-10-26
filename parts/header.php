@@ -11,11 +11,11 @@
   <div class="search_icon">
   <i class="fa fa-search search" aria-hidden="true"></i>
   </div>
-
+<a href="upload">
     <div class="upload_icon">
     <i class="fa fa-cloud-upload upload" aria-hidden="true"></i>
     </div>
-
+</a>
   </div>
 </div>
 <div class="search_box">

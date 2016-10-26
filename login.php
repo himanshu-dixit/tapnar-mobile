@@ -226,5 +226,6 @@ window.location.assign(data);
         });
          });
   </script>
+  <?php include 'parts/footer.php';?>
 </div>
 </html>

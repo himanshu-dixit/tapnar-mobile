@@ -71,6 +71,7 @@
 
 
 </div>
+<?php include 'parts/footer.php';?>
 <script>
 
   </script>
