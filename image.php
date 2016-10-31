@@ -97,6 +97,7 @@ $title1 =   str_replace("?","",$title);
 
   <link rel="stylesheet" href="http://localhost/tapnar_mobile/assests/image_page.css" />
   <!--<link rel="stylesheet" href="http://tapnar.com/assests/image_page.css" />-->
+  <?php include 'parts/head_tag.php';?>
 
 </head>
 <body>

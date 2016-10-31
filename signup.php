@@ -19,6 +19,7 @@
 
   <link rel="stylesheet" href="assests/index.css" />
     <link rel="stylesheet" href="assests/login.css" />
+  <?php include 'parts/head_tag.php';?>
 </head>
 <body>
   <!-- Swipe Menu Start -->

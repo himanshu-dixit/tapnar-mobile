@@ -29,8 +29,8 @@ if(!$image_key || $result['image_key']<>$image_key ){
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
  <link href="http://vjs.zencdn.net/5.10.4/video-js.css" rel="stylesheet">
  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
-<script src="jscolor.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+ <script src="jscolor.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
  <!-- If you'd like to support IE8 -->
  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
@@ -38,6 +38,7 @@ if(!$image_key || $result['image_key']<>$image_key ){
  <script src="main.js" async></script>
     <link rel="stylesheet" href="assests/common.css" />
   <link rel="stylesheet" href="assests/process.css" />
+  <?php include 'parts/head_tag.php';?>
 </head>
 <body>
 <?php include 'parts/header.php';?>

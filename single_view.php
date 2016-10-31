@@ -74,15 +74,11 @@ $user_name = $result['name'];
 ?>
 
 <!DOCTYPE html>
-<html><head>
-
-          <title><?php echo $title;?> | Tapnar</title>
-
+<html>
+  <head>
+        <title><?php echo $title;?> | Tapnar</title>
         <meta id="viewport" name="viewport" content="width=820, user-scalable=yes">
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
         <meta charset="utf-8" />
           <meta name="description" content="Tapnar | Most Popular Images & GIF On Internet">
 
@@ -125,6 +121,8 @@ html,body{
 
 }
 </style>
+
+  <?php include 'parts/head_tag.php';?>
 
     </head>
     <body class=" firefox" id="body">

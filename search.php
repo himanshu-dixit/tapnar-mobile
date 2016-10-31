@@ -14,6 +14,7 @@
  <link rel="stylesheet" href="assests/common.css" />
 
   <link rel="stylesheet" href="assests/index.css" />
+  <?php include 'parts/head_tag.php';?>
 </head>
 <body>
 <?php include 'parts/header.php';?>
