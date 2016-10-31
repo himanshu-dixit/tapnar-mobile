@@ -1,8 +1,6 @@
 <?php
 ini_set('display_errors', 'on');
 include('module/database/database_connect.php');
-
-
 session_start();
 $user_id = $_SESSION['user_id'];
 $image_key = $_GET['u'];
@@ -46,6 +44,4 @@ else{
 }
 }
 header('Location: http://'. $_SERVER['SERVER_NAME']);
-
-
 ?>
